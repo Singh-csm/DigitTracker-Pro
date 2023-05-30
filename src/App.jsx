@@ -19,10 +19,10 @@ import './App.css'
     
       const handleDecrementTen = () => {
         setCount(count - 10);
-      };
+      }; //
     
       return (
-        <div style={{ backgroundColor:"ThreeDHighlight",margin:"5%",padding:"40px",display: 'flex', flexDirection: 'column', alignItems: 'center' ,justifyContent:"center", border:"5px solid transparent", borderRadius:"15px"}}>
+        <div style={{ boxShadow:"0 0 10px rgb(207, 206, 206)",backgroundColor:"ThreeDHighlight",margin:"5%",padding:"40px",display: 'flex', flexDirection: 'column', alignItems: 'center' ,justifyContent:"center", border:"5px solid transparent", borderRadius:"15px"}}>
         <button onClick={handleIncrement} style={{ color:"Window", backgroundColor:"ThreeDLightShadow",marginBottom: '5px', border:"5px solid red", borderRadius:"10px 10px 32px 32px" }}>+1</button>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <button style={{ color:"Window", backgroundColor:"ThreeDLightShadow",border:"5px solid red", borderRadius:"10px 32px 32px 10px"}} onClick={handleDecrementTen}>-10</button>
